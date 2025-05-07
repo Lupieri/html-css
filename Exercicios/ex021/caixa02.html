@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            margin: 0px;
+        }
+
+        h1 {
+            font-size: 45px;
+            margin: 10px;
+            text-align: left;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.256);
+        }
+
+        header {
+            border-radius: 0px 20px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            display: block;
+            background-color: rgb(0, 157, 255);
+            padding: 3px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.421);
+            border-radius: 0px 0px 0px 20px;
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+            margin-left: 60px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        nav>a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.435);
+        }
+
+        article {
+            background-color: rgb(0, 157, 255);
+            color: white;
+            text-shadow: 1px 1px 1px black;
+            padding: 7px;
+            border-radius: 20px 0px;
+        }
+
+        article>h2 {
+            background-color: rgb(0, 134, 217);
+            width: 255px;
+            text-align: center;
+            margin-top: 2px;
+            margin-bottom: 10px;
+            border-radius: 10px 0px 10px 0px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.500);
+        }
+
+        article>aside {
+            background-color: rgb(0, 134, 217);
+            color: white;
+            text-align: center;
+            padding: 3px;
+            text-shadow: 1px 1px 1px black;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.500);
+            border-radius: 0px 0px 10px 0px;
+            width: 255px;
+            font-weight: bold;
+        }
+
+        aside>p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        #assuntos {
+            margin-left: 20px;
+        }
+
+        footer>p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lupieri Notícias</h1>
+        <nav>
+            <a href="#">Regiões</a>
+            <a href="#">Últimas Horas</a>
+            <a href="#">Telefone</a>
+            <a href="#">Clima</a>
+            <a href="#">Suporte</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni autem asperiores sint suscipit soluta,
+                    porro deserunt eaque deleniti fugit fugiat impedit quo quibusdam quis libero ut tempora aut quod
+                    facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit distinctio voluptas quos
+                    voluptatum eaque ipsam nulla molestias eum minus consectetur aut quis, illum, unde in atque quasi
+                    maiores vitae dolorum. porro deserunt eaque deleniti fugit fugiat impedit</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Enzo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>

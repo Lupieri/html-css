@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        div {
+            display: inline;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        div > p {
+            display: none;
+            font-size: 16px;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            width: 170px;
+            height: 20px;
+        }
+
+        div:hover {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Produtos
+        <p>Mouse</p>
+        <p>Teclado</p>
+        <p>Headset</p>
+        <p>Monitor</p>
+    </div>
+    <div>
+    <a href="https://www.samsung.com/br/support/model/UN40F5500AGCZD/">Suporte</a>
+    </div>
+</body>
+</html>
